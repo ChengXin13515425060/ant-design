@@ -67,9 +67,7 @@ const columns = [{
     if (index === 3) {
       obj.props.rowSpan = 0;
     }
-    if (index === 4) {
-      obj.props.colSpan = 0;
-    }
+   
     return obj;
   },
 }, {
